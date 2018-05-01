@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SubscriptionService", "SubscriptionService\SubscriptionService.csproj", "{34A87ADE-CEAA-4446-866D-B34D9FEB0211}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SubscriptionService.Tests", "SubscriptionService.Tests\SubscriptionService.Tests.csproj", "{D1E71898-AB8B-434F-B7D4-688FABFC42ED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{34A87ADE-CEAA-4446-866D-B34D9FEB0211}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34A87ADE-CEAA-4446-866D-B34D9FEB0211}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34A87ADE-CEAA-4446-866D-B34D9FEB0211}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34A87ADE-CEAA-4446-866D-B34D9FEB0211}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1E71898-AB8B-434F-B7D4-688FABFC42ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1E71898-AB8B-434F-B7D4-688FABFC42ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1E71898-AB8B-434F-B7D4-688FABFC42ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1E71898-AB8B-434F-B7D4-688FABFC42ED}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7D988F38-31F8-42BF-9517-DDB82718DF85}
+	EndGlobalSection
+EndGlobal
