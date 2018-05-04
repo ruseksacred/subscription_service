@@ -1,0 +1,72 @@
+﻿@model SubscriptionService.Models.Subscriber
+@{
+    ViewBag.Title = "Usunięcie subskrypcji";
+}
+
+<h2>Usunięcie subskrypcji</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.ValidationSummary(true)
+
+    <fieldest>
+
+        <legend>Subskrybent</legend>
+        <div class="editor-label">
+            
+            @Html.LabelFor(model => model.Name);
+        
+        
+        </div>
+        <div class="editor-field">
+
+            @Html.EditorFor(model => model.Name);
+            @Html.ValidationMessageFor(model => model.Name);
+
+
+        </div>
+        <div class="editor-label">
+
+            @Html.LabelFor(model => model.Surname);
+
+
+        </div>
+        <div class="editor-field">
+
+            @Html.EditorFor(model => model.Surname);
+            @Html.ValidationMessageFor(model => model.Surname);
+
+
+        </div>
+        <div class="editor-label">
+
+            @Html.LabelFor(model => model.Email);
+
+
+        </div>
+        <div class="editor-field">
+
+            @Html.EditorFor(model => model.Email);
+            @Html.ValidationMessageFor(model => model.Email);
+
+
+        </div>
+
+        <p>
+
+            <input type="submit" value="Usuń"/>
+
+        </p>
+
+
+    </fieldest>
+}
+<div>
+    @Html.ActionLink("Anuluj", "Index");
+</div>
+@section Scripts
+{
+    @Scripts.Render("~`/bundles/jqueryval")
+}
+
+
